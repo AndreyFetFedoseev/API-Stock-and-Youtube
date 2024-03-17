@@ -5,7 +5,7 @@ from datetime import datetime
 from googleapiclient.discovery import build
 
 SEARCH_RESULTS_FILE = "search_results.json"
-YT_API_KEY = os.getenv('YT_API_KEY')
+YT_API_KEY = 'AIzaSyB1ElvOU0yuwSh8ZHsg3pa8WDcQ806ydSA'
 RESULTS_COUNT = 10
 OPTIONS = {
     'n': 'ввести новый запрос',
